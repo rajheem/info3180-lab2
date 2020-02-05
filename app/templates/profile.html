@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="upper center">
+<img class="img-circle img-center" src="{{url_for('static', filename='image/Arsenal.jpg')}}">
+<h3 style="color:white;">{{ name }}</h3>
+<h6 style="color:white;">@roconnor</h6>
+<h5 style="color:white;">Kingston,Jamaica</h5>
+<h5 style="color:white;">{{ variablename }}</h5>
+</div>
+<div class="center">
+<p style="color:grey;">I am an undergraduate at the University of the West Indies who enjoy
+web design and development.</p>
+</div>
+<div class="center">
+  <h5 class="posts">40</h5>
+  <h5 class="posts">100</h5>
+  <h5 class="posts">250</h5>
+  </div>
+  <div class="center">
+    <p class="postsp" style="color:grey;">Posts</p>
+    <p class="postsp" style="color:grey;">Following</p>
+    <p class="postsp" style="color:grey;">Followers</p>
+    </div>
+<div class="center">
+    <button type="button" class="upper" style="color:white;">Button</button>
+    </div>
+
+{% endblock %}
